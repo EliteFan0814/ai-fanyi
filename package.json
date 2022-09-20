@@ -1,6 +1,6 @@
 {
   "name": "ai-fanyi",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "baidu translate cli",
   "main": "index.js",
   "repository": "git@github.com:EliteFan0814/ai-fanyi.git",
@@ -8,9 +8,11 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "aify":"dist/cli.js"
+    "aify": "dist/cli.js"
   },
-  "files": ["dist/**/*.js"],
+  "files": [
+    "dist/**/*.js"
+  ],
   "scripts": {
     "start": "tsnd src/main.ts",
     "cli": "tsnd src/cli.ts"
