@@ -1,3 +1,5 @@
+#  private files
+src/private.ts
 # Logs
 logs
 *.log
