@@ -4,7 +4,7 @@ import { translate } from "./main";
 const program = new Command();
 program
   .name("aify")
-  .version("0.0.1")
+  .version("0.0.7")
   .description("一个简单的翻译命令行工具，自动识别语言，默认翻译为中文");
 
 program
